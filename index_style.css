@@ -1,0 +1,469 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body 
+{
+    padding-top: 50px;
+    color: #444444;
+    font-family:     font-family: 'Poppins', Helvetica, arial, sans-serif;
+}
+.navbar
+{
+    padding: 0px !important;
+    background-color: black;
+    
+    
+}
+.navbar-brand
+{
+       padding: 0px !important;
+    color: white;
+    font-weight: 500;
+}
+
+.logo img
+{
+    padding: 0px 20px;
+    width: 100px;
+    height: 60px;
+}
+
+.navbar li
+{
+    padding: 0px 10px;
+    font-weight: 500;
+    color: white;
+}
+
+
+li:hover 
+{
+    color: #ec3237 !important;
+}
+
+.cover 
+{
+    background-image:url(../image/cover.jpg);
+        background-attachment: fixed;
+
+    background-position: center 0px;
+    height: 650px;
+    position: relative;
+}
+
+.cover-layout
+{
+    background-color: rgba(236, 51, 55, 0.7);
+    height: 650px;
+    position: relative;
+}
+
+.cover-contant
+{
+    position: absolute;
+    top:150px;
+    left:100px;
+    color: white;
+    
+}
+.cover-tittle
+{
+    font-size: 52px;
+    font-weight: 900;
+}
+
+.cover-subtittle
+{
+     font-size: 24px;
+    font-weight: 400;
+    padding-left: 15px; 
+}
+.cover button
+{
+    
+    padding: 5px 15px;
+    margin:30px 15px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 100;
+    border: 2px white solid;
+    transition-duration: 1s;
+}
+.cover button h4
+{
+    color: white;
+}
+.cover button:hover h4
+{
+        color: rgb(236, 51, 55);
+
+}
+.cover button:hover 
+{
+    background-color: white;
+}
+
+.about-tittle
+{
+    
+    margin-left: 50px;
+    padding:30px 50px;
+    
+}
+
+.about-tittle h2 
+{
+   font-weight: 900;
+    margin-bottom: 10px;
+}
+.about-tittle h4
+{
+    color: #777777;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.info
+{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.info p
+{
+   color: #777777;
+
+}
+
+.myskill-info
+{
+    margin: 10px;
+    padding: 50px;
+}
+
+.myskills p
+{
+        color: #777777;
+
+}
+
+.progress-bar
+{
+    background-color: #ec3237;
+}
+
+.btn
+{
+    background-color: #ec3237;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.profile-img img
+{width: 100%;
+}
+
+
+.profile-data ul li 
+{
+    float: left;
+    list-style: none;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+.about
+{
+    padding: 40px 0px;
+}
+.about-contant
+{
+    margin: 40px;
+}
+.what-to-do
+{
+     background-color:#f5f5f5;
+    padding: 50px;
+}
+.works
+{
+
+    padding: 40px;
+}
+.work
+{
+    padding: 20px;
+ 
+}
+.what-to-do h2
+{
+    padding-left: 60px;
+    font-weight: 800;
+}
+
+.what-to-do h5
+{
+        padding-left: 60px;
+
+    color: #777777;
+}
+
+.work-contant .fa
+{
+ color: #444;    
+}
+.work-contant:hover h4 
+
+{
+    color: #ec3237;
+
+}
+.work-contant:hover .fa
+{
+    color: white;
+    background-color:#ec3237;
+
+}
+.work-contant
+{
+     margin: 5px;
+    padding: 20px;
+    background-color: white;
+
+}
+.work-contant p
+{
+            color: #777777;
+
+}
+.work .fa
+{
+    padding: 8px;
+    text-align: center;
+    margin: 10px;
+}
+  
+
+
+.works-rate
+{
+    background-image:url(../image/project-counter.jpg);
+        background-attachment: fixed;
+
+    height: 300px;
+    background-position:center 30%;
+    background-size: cover;
+    padding-top: 30px;
+    
+      
+}
+
+.work-rate
+
+{
+    border: 1px white solid ;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px ;
+
+}
+.work-rate h2
+{
+    color: white;
+    margin: 10px;
+}
+
+.work-rate
+{
+    color:#ec3237;
+}
+.project
+{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
+        position: relative;
+    margin:20px auto;
+
+    border: 0.5px grey solid;
+    
+}
+.project img
+{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.project .fa
+{
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px; 
+    font-weight: 100;
+    position: absolute;
+     bottom: 80px;
+left: 45%;
+}
+.projects
+{
+    padding: 30px 0px;
+}
+
+.portoflio-contant h1 
+{
+    color: #444;
+    margin: 10px;
+}
+.portoflio-contant h6
+{
+    color: #777;
+        margin: 10px;
+
+}
+.portoflio-btn 
+{
+    padding: 10px 20px;
+    margin: 5px;
+    border:1.5px #bbb solid; 
+    background-color: transparent;
+    color: #444;
+}
+.portoflio-btn:hover 
+{
+    color:#ec3237;
+    border:1.5px #ec3237 solid;
+}
+
+.btns .all
+{
+    background-color: #ec3237;
+    color: white;
+}
+.portoflio-contant
+{
+    padding: 60px;
+        background-color: #f5f5f5;
+
+}
+.profiles 
+{
+    background-image: url(../image/client-testimonial.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    padding: 60px 0px;
+}
+
+
+.slider img 
+{
+border:  6px solid #ec3237 ;
+    border-radius:50%;
+    width:100px;
+    margin: 40px;
+}
+
+.slide-contant
+{
+    margin-left: 60px ;
+    color: white;
+    
+}
+.profile
+{
+    width: 50%;
+}
+.profile h2
+{
+color: #ec3237;
+}
+
+.hire-info ul li
+{
+    float: left;
+    list-style: none;
+    border : 1px grey solid;
+    padding: 10px;
+    margin: 5px;
+}
+.hire-tittle
+{
+    padding: 30px;
+}
+.hire-tittle h5
+{
+    color: #777;
+    font-weight: 400;
+}
+.Hire-me i
+{
+    color: #777;
+}
+.Hire-me ul i :hover ul i
+{
+color: #ec3237; 
+}
+.hire-info
+{
+    padding: 0px 30px;
+    color: #777777;
+}
+.hire-info h4
+{
+    color: #444444;
+    font-weight:900;
+    font-size: 18px;
+}
+.contact-info
+{
+    margin: 20px 0px;
+}
+.contact-info .icon 
+{
+    float: left;
+    padding: 5px 20px;
+}
+.social-media
+{
+    background-color: aqua;
+}
+form .field
+{
+    margin: 10px 0px;
+}
+form input
+{ 
+    width: 100%;
+  padding: 10px 20px;
+    border-radius: 2px solid #444;
+}
+form textarea
+{
+    width: 100%;
+    height: 200px;
+     padding: 10px 20px;
+    border-radius: 2px solid #444;
+}
+
+
+footer h5
+{
+    font-size:16px;
+    color: #777;
+    margin-top: 50px;
+}
+footer h5 a , .contact-info a
+{
+    color: #ec3237  ;
+}
